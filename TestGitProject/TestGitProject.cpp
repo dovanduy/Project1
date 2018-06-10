@@ -32,6 +32,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     LoadStringW(hInstance, IDC_TESTGITPROJECT, szWindowClass, MAX_LOADSTRING);
     MyRegisterClass(hInstance);
 
+	//test branchs
     // 执行应用程序初始化: 
     if (!InitInstance (hInstance, nCmdShow))
     {
